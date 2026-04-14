@@ -75,6 +75,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 - [NIP-57: Lightning Zaps](57.md)
 - [NIP-58: Badges](58.md)
 - [NIP-59: Gift Wrap](59.md)
+- [NIP-5A: Pubkey Static Websites](5A.md)
 - [NIP-60: Cashu Wallet](60.md)
 - [NIP-61: Nutzaps](61.md)
 - [NIP-62: Request to Vanish](62.md)
@@ -204,6 +205,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `10005`       | Public chats list               | [51](51.md)                            |
 | `10006`       | Blocked relays list             | [51](51.md)                            |
 | `10007`       | Search relays list              | [51](51.md)                            |
+| `10008`       | Profile Badges                  | [51](51.md), [58](58.md)               |
 | `10009`       | User groups                     | [51](51.md), [29](29.md)               |
 | `10011`       | External Identities             | [39](39.md)                            |
 | `10012`       | Favorite relays list            | [51](51.md)                            |
@@ -223,6 +225,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `13194`       | Wallet Info                     | [47](47.md)                            |
 | `13534`       | Membership Lists                | [43](43.md)                            |
 | `14388`       | User Sound Effect Lists         | [Corny Chat][cornychat-usersoundlist]  |
+| `15128`       | Root nsite manifest             | [5A](5A.md)                            |
 | `17375`       | Cashu Wallet Event              | [60](60.md)                            |
 | `21000`       | Lightning Pub RPC               | [Lightning.Pub][lnpub]                 |
 | `22242`       | Client Authentication           | [42](42.md)                            |
@@ -242,7 +245,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `30005`       | Video sets                      | [51](51.md)                            |
 | `30006`       | Picture sets                    | [51](51.md)                            |
 | `30007`       | Kind mute sets                  | [51](51.md)                            |
-| `30008`       | Profile Badges                  | [58](58.md)                            |
+| `30008`       | Badge sets                      | [51](51.md), [58](58.md)               |
 | `30009`       | Badge Definition                | [58](58.md)                            |
 | `30015`       | Interest sets                   | [51](51.md)                            |
 | `30017`       | Create or update a stall        | [15](15.md)                            |
@@ -288,6 +291,8 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `34236`       | Addressable Short Video Event   | [71](71.md)                            |
 | `34388`       | Sound Effects                   | [Corny Chat][cornychat-soundeffects]   |
 | `34550`       | Community Definition            | [72](72.md)                            |
+| `34128`       | Legacy nsite manifest           | [5A](5A.md) (deprecated)               |
+| `35128`       | Named nsite manifest            | [5A](5A.md)                            |
 | `38172`       | Cashu Mint Announcement         | [87](87.md)                            |
 | `38173`       | Fedimint Announcement           | [87](87.md)                            |
 | `37516`       | Geocache listing                | [geocaching](geocaching)               |
